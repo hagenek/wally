@@ -1,7 +1,7 @@
 (ns mister-wally.auth.login
   (:require [reagent.core :as r]
             [re-frame.core :as rf]
-            [app.components.page-nav :refer [page-nav]]
+            [mister-wally.events :as events]
             ["@smooth-ui/core-sc" :refer [Row Col FormGroup Label Input Box Button]]))
 
 (defn login
@@ -11,7 +11,6 @@
     (fn []
       [:> Row {:justify-content "center"}
        [:> Col {:xs 12 :sm 6}
-        [page-nav {:center "Log in"}]
         [:> FormGroup
          [:> Label {:html-for :email} "Email"]
          [:> Input {:control true
@@ -31,7 +30,7 @@
          [:> Box {:py 1
                   :pr 2}
           [:a {:href "#sign-up"
-               :on-click #(rf/dispatch [:set-active-nav :sign-up])}
+               :on-click #(rf/dispatch [::events/navigate :about])}
            "New to MisterWally? Create an account!"]]
          [:> Box
           [:> Button {:on-click #(js/console.log "log-in")}
