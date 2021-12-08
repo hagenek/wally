@@ -1,1 +1,5 @@
 node_modules
+.calva
+.lsp
+.shadow-cljs
+.clj-kondo
