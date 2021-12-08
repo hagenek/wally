@@ -5,7 +5,7 @@
                    (js->clj theme :keywordize-keys true)
                    {:black "#243B53"
                     :primary "#213458"
-                    :secondary "1D7D81"
+                    :secondary "#1D7D81"
                     :light "#DDDDDD"
                     :borderRadius "14px"
                     :borderRadiusSm "10px"

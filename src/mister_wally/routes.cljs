@@ -10,10 +10,11 @@
 
 (def routes
   (atom
-    ["/" {""      :home
-          "about" :about
-          "login" :login
-          }]))
+   ["/" {""      :home
+         "about" :about
+         "login" :login
+         "transactions" :transactions
+         "signup" :signup}]))
 
 (defn parse
   [url]
@@ -40,6 +41,6 @@
   (pushy/start! history))
 
 (re-frame/reg-fx
-  :navigate
-  (fn [handler]
-    (navigate! handler)))
+ :navigate
+ (fn [handler]
+   (navigate! handler)))

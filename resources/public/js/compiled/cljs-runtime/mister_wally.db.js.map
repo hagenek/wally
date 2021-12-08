@@ -1,1 +1,0 @@
-{"version":3,"sources":["mister_wally/db.cljs"],"mappings":";AAEA,6BAAA,2CAAA,qDAAA,7HAAKA","names":["mister-wally.db/default-db"],"sourcesContent":["(ns mister-wally.db)\n\n(def default-db\n  {:name \"Georg\"})\n"]}

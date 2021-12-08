@@ -3,3 +3,4 @@ node_modules
 .lsp
 .shadow-cljs
 .clj-kondo
+resources/public/js/compiled/*

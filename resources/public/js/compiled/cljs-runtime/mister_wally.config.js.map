@@ -1,1 +1,0 @@
-{"version":3,"sources":["mister_wally/config.cljs"],"mappings":";AAEA,AAAKA,mCACMC","names":["mister-wally.config/debug?","js/goog.DEBUG"],"sourcesContent":["(ns mister-wally.config)\n\n(def debug?\n  ^boolean goog.DEBUG)\n"]}
