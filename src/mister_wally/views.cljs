@@ -6,11 +6,10 @@
    [mister-wally.routes :as routes]
    [mister-wally.subs :as subs]
    [mister-wally.auth.login :refer [login]]
-   ["@smooth-ui/core-sc" :refer [Input
+   ["@smooth-ui/core-sc" :refer [
                                  Button
-                                 FormGroup
-                                 Label
                                  Grid
+                                 Typography
                                  Col
                                  Row
                                  Box]]))
@@ -21,51 +20,41 @@
   [:> Box
    [:> Box {:as "img"
             :alt "Nanocoin logo"
-            :width "100px"
+            :width "auto"
+            :border "3px solid #213458" 
+            :mb 20
+            :border-radius "14px"
             :className "nano-logo"
-            :src "img/nano/symbol-blue.svg"}]
+            :src "img/shiba-inu.png"}]
    [:> Box
     [:> Button "Receive"]
     [:> Button {:ml 120 :mb 100} "Send"]]])
 
 
-(defn set-username []
-  (let [init-values {:name "" :last-name ""}
-        userinfo (r/atom init-values)]
-  (fn []
-    [:> Row {:justify-content "center"}
-     [:> Col {:xs 12 :sm 6}
-      [:> FormGroup
-       [:> Label {:html-for :name} "Name"]
-       [:> Input {:control true
-                  :id :name
-                  :label "Username"
-                  :value (:name @userinfo)
-                  :on-change #(swap! userinfo assoc :name (.. % -target -value))}]]
-      [:> Button {:on-click
-                  #(re-frame/dispatch [::events/set-active-user (:name @userinfo)])}
-       "Set username"]]])))
-
 (defn home-panel []
   (let [name (re-frame/subscribe [::subs/name])]
-    [:> Grid
+    [:> Grid {:my 50}
      [:> Row {:justify-content "center"
-              :text-align "center"}
+              :text-align "center"
+              :background-color "#1D7D81"}
       [:> Col {:xs 12 :sm 12}
-              [:> Box {:as "h2" :my 50}
-               (str "Hello " @name ". This is the Home Page.")]
+       [:> Box {:flex-direction "column"}
+        [:p
+         [:> Typography {:color "light"} (str "Welcome " @name ".")]]
+        [:p
+         [:> Typography {:color "light"} "How can Mister Wally assist you today?"]]]
        [send-receive]
-       [set-username]
-       [:div
-        [:a {:on-click #(re-frame/dispatch [::events/navigate :about])}
-         "go to About Page"]]]]]))
+       [:> Box {
+                :as "a"
+                :on-click #(re-frame/dispatch [::events/navigate :about])}
+        "About Mister Wally"]]]]))
 
 (defmethod routes/panels :home-panel [] [home-panel])
 
 ;; about
 (defn about-panel []
   [:> Box  {:justify-content "center" :text-align "center"}
-   [:h1 "This is the About Page."]
+   [:> Box {:as "h2" :color "#FFF"} "This is the About Page."]
    [:p
     [:> Button {:as "a" :mx 20 :on-click #(re-frame/dispatch [::events/navigate :home])}
      "Home Page"]
