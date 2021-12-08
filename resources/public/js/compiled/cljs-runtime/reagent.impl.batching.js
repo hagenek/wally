@@ -43,14 +43,14 @@ var n__4695__auto__ = a.length;
 var i = (0);
 while(true){
 if((i < n__4695__auto__)){
-var c_40302 = (a[i]);
-if(c_40302.cljsIsDirty === true){
-c_40302.forceUpdate();
+var c_31565 = (a[i]);
+if(c_31565.cljsIsDirty === true){
+c_31565.forceUpdate();
 } else {
 }
 
-var G__40303 = (i + (1));
-i = G__40303;
+var G__31566 = (i + (1));
+i = G__31566;
 continue;
 } else {
 return null;
@@ -69,11 +69,11 @@ var n__4695__auto__ = fs.length;
 var i = (0);
 while(true){
 if((i < n__4695__auto__)){
-var fexpr__40300_40304 = (fs[i]);
-(fexpr__40300_40304.cljs$core$IFn$_invoke$arity$0 ? fexpr__40300_40304.cljs$core$IFn$_invoke$arity$0() : fexpr__40300_40304.call(null));
+var fexpr__31538_31567 = (fs[i]);
+(fexpr__31538_31567.cljs$core$IFn$_invoke$arity$0 ? fexpr__31538_31567.cljs$core$IFn$_invoke$arity$0() : fexpr__31538_31567.call(null));
 
-var G__40305 = (i + (1));
-i = G__40305;
+var G__31568 = (i + (1));
+i = G__31568;
 continue;
 } else {
 return null;
@@ -131,10 +131,10 @@ return null;
 } else {
 (self__.scheduled_QMARK_ = true);
 
-var G__40301 = (function (){
+var G__31542 = (function (){
 return this$.run_queues();
 });
-return (reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1(G__40301) : reagent.impl.batching.next_tick.call(null,G__40301));
+return (reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1 ? reagent.impl.batching.next_tick.cljs$core$IFn$_invoke$arity$1(G__31542) : reagent.impl.batching.next_tick.call(null,G__31542));
 }
 }));
 

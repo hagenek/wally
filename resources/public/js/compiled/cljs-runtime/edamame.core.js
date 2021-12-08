@@ -50,8 +50,8 @@ goog.provide('edamame.core');
  *   
  */
 edamame.core.parse_string = (function edamame$core$parse_string(var_args){
-var G__45619 = arguments.length;
-switch (G__45619) {
+var G__37019 = arguments.length;
+switch (G__37019) {
 case 1:
 return edamame.core.parse_string.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -81,8 +81,8 @@ return edamame.impl.parser.parse_string(s,opts);
  *   in a vector.
  */
 edamame.core.parse_string_all = (function edamame$core$parse_string_all(var_args){
-var G__45621 = arguments.length;
-switch (G__45621) {
+var G__37036 = arguments.length;
+switch (G__37036) {
 case 1:
 return edamame.core.parse_string_all.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

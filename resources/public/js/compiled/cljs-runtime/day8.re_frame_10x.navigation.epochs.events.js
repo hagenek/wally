@@ -2,22 +2,22 @@ goog.provide('day8.re_frame_10x.navigation.epochs.events');
 day8.re_frame_10x.navigation.epochs.events.first_match_id = (function day8$re_frame_10x$navigation$epochs$events$first_match_id(m){
 return new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(cljs.core.first(new cljs.core.Keyword(null,"match-info","match-info",666319879).cljs$core$IFn$_invoke$arity$1(m)));
 });
-day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","scroll-into-view-debounced","day8.re-frame-10x.navigation.epochs.events/scroll-into-view-debounced",-416908306),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.trim_v], null),(function (_,p__41541){
-var vec__41542 = p__41541;
-var js_dom = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41542,(0),null);
+day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","scroll-into-view-debounced","day8.re-frame-10x.navigation.epochs.events/scroll-into-view-debounced",-416908306),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.trim_v], null),(function (_,p__34192){
+var vec__34194 = p__34192;
+var js_dom = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__34194,(0),null);
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"fx","fx",-1237829572),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.fx.debounce","dispatch","day8.re-frame-10x.fx.debounce/dispatch",-293096343),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"key","key",-1516042587),new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","scroll-into-view","day8.re-frame-10x.navigation.epochs.events/scroll-into-view",-1183173127),new cljs.core.Keyword(null,"event","event",301435442),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","scroll-into-view","day8.re-frame-10x.navigation.epochs.events/scroll-into-view",-1183173127),js_dom], null),new cljs.core.Keyword(null,"delay","delay",-574225219),(128)], null)], null)], null)], null);
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","scroll-into-view","day8.re-frame-10x.navigation.epochs.events/scroll-into-view",-1183173127),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.trim_v], null),(function (_,p__41545){
-var vec__41546 = p__41545;
-var js_dom = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41546,(0),null);
+day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","scroll-into-view","day8.re-frame-10x.navigation.epochs.events/scroll-into-view",-1183173127),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.trim_v], null),(function (_,p__34197){
+var vec__34198 = p__34197;
+var js_dom = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__34198,(0),null);
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"fx","fx",-1237829572),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.fx.scroll","into-view","day8.re-frame-10x.fx.scroll/into-view",1866001434),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"js-dom","js-dom",-1971531703),js_dom], null)], null)], null)], null);
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","receive-new-traces","day8.re-frame-10x.navigation.epochs.events/receive-new-traces",542616228),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.trim_v], null),(function (p__41550,p__41551){
-var map__41552 = p__41550;
-var map__41552__$1 = cljs.core.__destructure_map(map__41552);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41552__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var vec__41553 = p__41551;
-var new_traces = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41553,(0),null);
+day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","receive-new-traces","day8.re-frame-10x.navigation.epochs.events/receive-new-traces",542616228),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.trim_v], null),(function (p__34236,p__34237){
+var map__34238 = p__34236;
+var map__34238__$1 = cljs.core.__destructure_map(map__34238);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34238__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var vec__34239 = p__34237;
+var new_traces = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__34239,(0),null);
 var temp__5751__auto__ = cljs.core.sort_by.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"id","id",-1388402092),new_traces);
 if(cljs.core.truth_(temp__5751__auto__)){
 var sorted_traces = temp__5751__auto__;
@@ -25,10 +25,10 @@ var number_of_epochs_to_retain = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(
 var events_to_ignore = cljs.core.set(cljs.core.map.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"event-id","event-id",2130210178),cljs.core.vals(cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"ignored-events","ignored-events",1738756589)], null)))));
 var previous_traces = cljs.core.get_in.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"traces","traces",-1301138004),new cljs.core.Keyword(null,"all","all",892129742)], null),cljs.core.PersistentVector.EMPTY);
 var parse_state = cljs.core.get_in.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"epochs","epochs",1796936425),new cljs.core.Keyword(null,"parse-state","parse-state",-1931312535)], null),day8.re_frame_10x.tools.metamorphic.initial_parse_state);
-var map__41556 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"low-level-trace","low-level-trace",638447092)], null));
-var map__41556__$1 = cljs.core.__destructure_map(map__41556);
-var drop_re_frame = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41556__$1,new cljs.core.Keyword(null,"re-frame","re-frame",-1039473033));
-var drop_reagent = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41556__$1,new cljs.core.Keyword(null,"reagent","reagent",2131627322));
+var map__34254 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"low-level-trace","low-level-trace",638447092)], null));
+var map__34254__$1 = cljs.core.__destructure_map(map__34254);
+var drop_re_frame = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34254__$1,new cljs.core.Keyword(null,"re-frame","re-frame",-1039473033));
+var drop_reagent = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34254__$1,new cljs.core.Keyword(null,"reagent","reagent",2131627322));
 var all_traces = cljs.core.into.cljs$core$IFn$_invoke$arity$2(previous_traces,sorted_traces);
 var parse_state__$1 = day8.re_frame_10x.tools.metamorphic.parse_traces(parse_state,sorted_traces);
 var new_matches = new cljs.core.Keyword(null,"partitions","partitions",602979514).cljs$core$IFn$_invoke$arity$1(parse_state__$1);
@@ -71,8 +71,8 @@ return cljs.core.filter.cljs$core$IFn$_invoke$arity$2(day8.re_frame_10x.tools.me
 var all_matches = cljs.core.into.cljs$core$IFn$_invoke$arity$2(previous_matches,new_matches__$2);
 var retained_matches = cljs.core.into.cljs$core$IFn$_invoke$arity$2(cljs.core.PersistentVector.EMPTY,cljs.core.take_last(number_of_epochs_to_retain,all_matches));
 var first_id_to_retain = day8.re_frame_10x.navigation.epochs.events.first_match_id(cljs.core.first(retained_matches));
-var retained_traces = cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentVector.EMPTY,cljs.core.comp.cljs$core$IFn$_invoke$arity$2(cljs.core.drop_while.cljs$core$IFn$_invoke$arity$1((function (p1__41549_SHARP_){
-return (new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(p1__41549_SHARP_) < first_id_to_retain);
+var retained_traces = cljs.core.into.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentVector.EMPTY,cljs.core.comp.cljs$core$IFn$_invoke$arity$2(cljs.core.drop_while.cljs$core$IFn$_invoke$arity$1((function (p1__34218_SHARP_){
+return (new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(p1__34218_SHARP_) < first_id_to_retain);
 })),cljs.core.remove.cljs$core$IFn$_invoke$arity$1((function (trace){
 var or__4212__auto__ = (cljs.core.truth_(drop_reagent)?day8.re_frame_10x.tools.metamorphic.low_level_reagent_trace_QMARK_(trace):null);
 if(cljs.core.truth_(or__4212__auto__)){
@@ -94,10 +94,10 @@ return cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(epochs,new cljs.core
 return new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"db","db",993250759),db], null);
 }
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","previous","day8.re-frame-10x.navigation.epochs.events/previous",2061328788),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"epochs","epochs",1796936425)], null)], 0))], null),(function (p__41558,_){
-var map__41559 = p__41558;
-var map__41559__$1 = cljs.core.__destructure_map(map__41559);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41559__$1,new cljs.core.Keyword(null,"db","db",993250759));
+day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","previous","day8.re-frame-10x.navigation.epochs.events/previous",2061328788),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"epochs","epochs",1796936425)], null)], 0))], null),(function (p__34278,_){
+var map__34279 = p__34278;
+var map__34279__$1 = cljs.core.__destructure_map(map__34279);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34279__$1,new cljs.core.Keyword(null,"db","db",993250759));
 var temp__5755__auto__ = new cljs.core.Keyword(null,"selected-epoch-id","selected-epoch-id",70601778).cljs$core$IFn$_invoke$arity$1(db);
 if((temp__5755__auto__ == null)){
 var new_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"match-ids","match-ids",752973161).cljs$core$IFn$_invoke$arity$1(db),(cljs.core.count(new cljs.core.Keyword(null,"match-ids","match-ids",752973161).cljs$core$IFn$_invoke$arity$1(db)) - (2)));
@@ -112,10 +112,10 @@ var new_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(match_ids,(match_array_
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"selected-epoch-id","selected-epoch-id",70601778),new_id),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","reset-current-epoch-app-db","day8.re-frame-10x.navigation.epochs.events/reset-current-epoch-app-db",1850636212),new_id], null)], null);
 }
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","next","day8.re-frame-10x.navigation.epochs.events/next",1388476595),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"epochs","epochs",1796936425)], null)], 0))], null),(function (p__41560,_){
-var map__41561 = p__41560;
-var map__41561__$1 = cljs.core.__destructure_map(map__41561);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41561__$1,new cljs.core.Keyword(null,"db","db",993250759));
+day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","next","day8.re-frame-10x.navigation.epochs.events/next",1388476595),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"epochs","epochs",1796936425)], null)], 0))], null),(function (p__34285,_){
+var map__34286 = p__34285;
+var map__34286__$1 = cljs.core.__destructure_map(map__34286);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34286__$1,new cljs.core.Keyword(null,"db","db",993250759));
 var temp__5755__auto__ = new cljs.core.Keyword(null,"selected-epoch-id","selected-epoch-id",70601778).cljs$core$IFn$_invoke$arity$1(db);
 if((temp__5755__auto__ == null)){
 var new_id = day8.re_frame_10x.tools.coll.last_in_vec(new cljs.core.Keyword(null,"match-ids","match-ids",752973161).cljs$core$IFn$_invoke$arity$1(db));
@@ -130,19 +130,19 @@ var new_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(match_ids,(match_array_
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"selected-epoch-id","selected-epoch-id",70601778),new_id),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","reset-current-epoch-app-db","day8.re-frame-10x.navigation.epochs.events/reset-current-epoch-app-db",1850636212),new_id], null)], null);
 }
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","most-recent","day8.re-frame-10x.navigation.epochs.events/most-recent",-1146993774),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"epochs","epochs",1796936425)], null)], 0))], null),(function (p__41562,_){
-var map__41563 = p__41562;
-var map__41563__$1 = cljs.core.__destructure_map(map__41563);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41563__$1,new cljs.core.Keyword(null,"db","db",993250759));
+day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","most-recent","day8.re-frame-10x.navigation.epochs.events/most-recent",-1146993774),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"epochs","epochs",1796936425)], null)], 0))], null),(function (p__34295,_){
+var map__34297 = p__34295;
+var map__34297__$1 = cljs.core.__destructure_map(map__34297);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34297__$1,new cljs.core.Keyword(null,"db","db",993250759));
 var new_id = day8.re_frame_10x.tools.coll.last_in_vec(new cljs.core.Keyword(null,"match-ids","match-ids",752973161).cljs$core$IFn$_invoke$arity$1(db));
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(db,new cljs.core.Keyword(null,"selected-epoch-index","selected-epoch-index",1788553164),null,cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"selected-epoch-id","selected-epoch-id",70601778),new_id], 0)),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","reset-current-epoch-app-db","day8.re-frame-10x.navigation.epochs.events/reset-current-epoch-app-db",1850636212),new_id], null)], null);
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","load","day8.re-frame-10x.navigation.epochs.events/load",1738587584),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"epochs","epochs",1796936425)], null)], 0)),day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.trim_v], null),(function (p__41564,p__41565){
-var map__41566 = p__41564;
-var map__41566__$1 = cljs.core.__destructure_map(map__41566);
-var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__41566__$1,new cljs.core.Keyword(null,"db","db",993250759));
-var vec__41567 = p__41565;
-var new_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41567,(0),null);
+day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_fx.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","load","day8.re-frame-10x.navigation.epochs.events/load",1738587584),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"epochs","epochs",1796936425)], null)], 0)),day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.trim_v], null),(function (p__34298,p__34299){
+var map__34300 = p__34298;
+var map__34300__$1 = cljs.core.__destructure_map(map__34300);
+var db = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__34300__$1,new cljs.core.Keyword(null,"db","db",993250759));
+var vec__34301 = p__34299;
+var new_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__34301,(0),null);
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"db","db",993250759),cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(db,new cljs.core.Keyword(null,"selected-epoch-id","selected-epoch-id",70601778),new_id),new cljs.core.Keyword(null,"dispatch","dispatch",1319337009),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","reset-current-epoch-app-db","day8.re-frame-10x.navigation.epochs.events/reset-current-epoch-app-db",1850636212),new_id], null)], null);
 }));
 day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","replay","day8.re-frame-10x.navigation.epochs.events/replay",-1356562037),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.path.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"epochs","epochs",1796936425)], null)], 0))], null),(function (epochs,_){
@@ -176,25 +176,25 @@ re_frame.trace.reset_tracing_BANG_();
 
 return day8.re_frame_10x.tools.coll.dissoc_in(cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.Keyword(null,"epochs","epochs",1796936425)),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"traces","traces",-1301138004),new cljs.core.Keyword(null,"all","all",892129742)], null));
 }));
-day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","reset-current-epoch-app-db","day8.re-frame-10x.navigation.epochs.events/reset-current-epoch-app-db",1850636212),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.trim_v], null),(function (db,p__41570){
-var vec__41571 = p__41570;
-var new_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__41571,(0),null);
+day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.reg_event_db.cljs$core$IFn$_invoke$arity$3(new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","reset-current-epoch-app-db","day8.re-frame-10x.navigation.epochs.events/reset-current-epoch-app-db",1850636212),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.trim_v], null),(function (db,p__34320){
+var vec__34321 = p__34320;
+var new_id = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__34321,(0),null);
 if(cljs.core.truth_(cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(db,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"settings","settings",1556144875),new cljs.core.Keyword(null,"app-db-follows-events?","app-db-follows-events?",-1566738462)], null)))){
-var epochs_41579 = new cljs.core.Keyword(null,"epochs","epochs",1796936425).cljs$core$IFn$_invoke$arity$1(db);
-var match_id_41580 = (function (){var or__4212__auto__ = new_id;
+var epochs_34385 = new cljs.core.Keyword(null,"epochs","epochs",1796936425).cljs$core$IFn$_invoke$arity$1(db);
+var match_id_34386 = (function (){var or__4212__auto__ = new_id;
 if(cljs.core.truth_(or__4212__auto__)){
 return or__4212__auto__;
 } else {
-return day8.re_frame_10x.tools.coll.last_in_vec(cljs.core.get.cljs$core$IFn$_invoke$arity$2(epochs_41579,new cljs.core.Keyword(null,"match-ids","match-ids",752973161)));
+return day8.re_frame_10x.tools.coll.last_in_vec(cljs.core.get.cljs$core$IFn$_invoke$arity$2(epochs_34385,new cljs.core.Keyword(null,"match-ids","match-ids",752973161)));
 }
 })();
-var match_41581 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(epochs_41579,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"matches-by-id","matches-by-id",1749529562),match_id_41580], null));
-var event_41582 = day8.re_frame_10x.tools.metamorphic.matched_event(new cljs.core.Keyword(null,"match-info","match-info",666319879).cljs$core$IFn$_invoke$arity$1(match_41581));
-var temp__5757__auto___41583 = day8.re_frame_10x.tools.metamorphic.app_db_after(event_41582);
-if((temp__5757__auto___41583 == null)){
+var match_34387 = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(epochs_34385,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"matches-by-id","matches-by-id",1749529562),match_id_34386], null));
+var event_34388 = day8.re_frame_10x.tools.metamorphic.matched_event(new cljs.core.Keyword(null,"match-info","match-info",666319879).cljs$core$IFn$_invoke$arity$1(match_34387));
+var temp__5757__auto___34394 = day8.re_frame_10x.tools.metamorphic.app_db_after(event_34388);
+if((temp__5757__auto___34394 == null)){
 } else {
-var new_db_41584 = temp__5757__auto___41583;
-cljs.core.reset_BANG_(re_frame.db.app_db,new_db_41584);
+var new_db_34395 = temp__5757__auto___34394;
+cljs.core.reset_BANG_(re_frame.db.app_db,new_db_34395);
 }
 } else {
 }

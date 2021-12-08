@@ -14,14 +14,14 @@ return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new
 });
 day8.re_frame_10x.panels.settings.views.closeable_text_box = (function day8$re_frame_10x$panels$settings$views$closeable_text_box(var_args){
 var args__4824__auto__ = [];
-var len__4818__auto___46544 = arguments.length;
-var i__4819__auto___46545 = (0);
+var len__4818__auto___37364 = arguments.length;
+var i__4819__auto___37365 = (0);
 while(true){
-if((i__4819__auto___46545 < len__4818__auto___46544)){
-args__4824__auto__.push((arguments[i__4819__auto___46545]));
+if((i__4819__auto___37365 < len__4818__auto___37364)){
+args__4824__auto__.push((arguments[i__4819__auto___37365]));
 
-var G__46546 = (i__4819__auto___46545 + (1));
-i__4819__auto___46545 = G__46546;
+var G__37367 = (i__4819__auto___37365 + (1));
+i__4819__auto___37365 = G__37367;
 continue;
 } else {
 }
@@ -32,22 +32,22 @@ var argseq__4825__auto__ = ((((0) < args__4824__auto__.length))?(new cljs.core.I
 return day8.re_frame_10x.panels.settings.views.closeable_text_box.cljs$core$IFn$_invoke$arity$variadic(argseq__4825__auto__);
 });
 
-(day8.re_frame_10x.panels.settings.views.closeable_text_box.cljs$core$IFn$_invoke$arity$variadic = (function (p__46519){
-var map__46520 = p__46519;
-var map__46520__$1 = cljs.core.__destructure_map(map__46520);
-var model = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46520__$1,new cljs.core.Keyword(null,"model","model",331153215));
-var width = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46520__$1,new cljs.core.Keyword(null,"width","width",-384071477));
-var on_close = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46520__$1,new cljs.core.Keyword(null,"on-close","on-close",-761178394));
-var on_change = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__46520__$1,new cljs.core.Keyword(null,"on-change","on-change",-732046149));
+(day8.re_frame_10x.panels.settings.views.closeable_text_box.cljs$core$IFn$_invoke$arity$variadic = (function (p__37323){
+var map__37324 = p__37323;
+var map__37324__$1 = cljs.core.__destructure_map(map__37324);
+var model = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__37324__$1,new cljs.core.Keyword(null,"model","model",331153215));
+var width = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__37324__$1,new cljs.core.Keyword(null,"width","width",-384071477));
+var on_close = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__37324__$1,new cljs.core.Keyword(null,"on-close","on-close",-761178394));
+var on_change = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__37324__$1,new cljs.core.Keyword(null,"on-change","on-change",-732046149));
 return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.h_box,new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 11, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.input_text,new cljs.core.Keyword(null,"width","width",-384071477),width,new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"width","width",-384071477),width,new cljs.core.Keyword(null,"height","height",1025178622),"25px",new cljs.core.Keyword(null,"padding","padding",1660304693),day8.re_frame_10x.components.re_com.css_join.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["0px",day8.re_frame_10x.styles.gs_5s], 0))], null),new cljs.core.Keyword(null,"model","model",331153215),model,new cljs.core.Keyword(null,"change-on-blur?","change-on-blur?",854283925),false,new cljs.core.Keyword(null,"on-change","on-change",-732046149),on_change], null),new cljs.core.PersistentVector(null, 11, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.close_button,new cljs.core.Keyword(null,"div-size","div-size",1661625995),(25),new cljs.core.Keyword(null,"font-size","font-size",-1847940346),(25),new cljs.core.Keyword(null,"top-offset","top-offset",1235816245),(-4),new cljs.core.Keyword(null,"left-offset","left-offset",-331155643),(10),new cljs.core.Keyword(null,"on-click","on-click",1632826543),on_close], null)], null)], null);
 }));
 
 (day8.re_frame_10x.panels.settings.views.closeable_text_box.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(day8.re_frame_10x.panels.settings.views.closeable_text_box.cljs$lang$applyTo = (function (seq46517){
+(day8.re_frame_10x.panels.settings.views.closeable_text_box.cljs$lang$applyTo = (function (seq37321){
 var self__4806__auto__ = this;
-return self__4806__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq46517));
+return self__4806__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq37321));
 }));
 
 day8.re_frame_10x.panels.settings.views.explanation_text = (function day8$re_frame_10x$panels$settings$views$explanation_text(children){
@@ -64,46 +64,46 @@ return new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMP
 var num_epochs = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.subs","number-of-matches","day8.re-frame-10x.navigation.epochs.subs/number-of-matches",-1857513637)], null)));
 var num_traces = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.traces.subs","count","day8.re-frame-10x.panels.traces.subs/count",900994278)], null)));
 var epochs_to_retain = day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","number-of-retained-epochs","day8.re-frame-10x.panels.settings.subs/number-of-retained-epochs",-789938705)], null));
-return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.settings_box,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.h_box,new cljs.core.Keyword(null,"align","align",1964212802),new cljs.core.Keyword(null,"center","center",-748944368),new cljs.core.Keyword(null,"gap","gap",80255254),day8.re_frame_10x.panels.settings.views.horizontal_gap,new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.label,new cljs.core.Keyword(null,"label","label",1718410804),"Retain last"], null),new cljs.core.PersistentVector(null, 11, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.input_text,new cljs.core.Keyword(null,"width","width",-384071477),day8.re_frame_10x.styles.gs_31s,new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"width","width",-384071477),"35px",new cljs.core.Keyword(null,"height","height",1025178622),"25px",new cljs.core.Keyword(null,"padding","padding",1660304693),day8.re_frame_10x.components.re_com.css_join.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["0px",day8.re_frame_10x.styles.gs_5s], 0))], null),new cljs.core.Keyword(null,"model","model",331153215),epochs_to_retain,new cljs.core.Keyword(null,"change-on-blur?","change-on-blur?",854283925),true,new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__46525_SHARP_){
-return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","set-number-of-retained-epochs","day8.re-frame-10x.panels.settings.events/set-number-of-retained-epochs",-813421569),p1__46525_SHARP_], null));
+return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.settings_box,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.h_box,new cljs.core.Keyword(null,"align","align",1964212802),new cljs.core.Keyword(null,"center","center",-748944368),new cljs.core.Keyword(null,"gap","gap",80255254),day8.re_frame_10x.panels.settings.views.horizontal_gap,new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.label,new cljs.core.Keyword(null,"label","label",1718410804),"Retain last"], null),new cljs.core.PersistentVector(null, 11, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.input_text,new cljs.core.Keyword(null,"width","width",-384071477),day8.re_frame_10x.styles.gs_31s,new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"width","width",-384071477),"35px",new cljs.core.Keyword(null,"height","height",1025178622),"25px",new cljs.core.Keyword(null,"padding","padding",1660304693),day8.re_frame_10x.components.re_com.css_join.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["0px",day8.re_frame_10x.styles.gs_5s], 0))], null),new cljs.core.Keyword(null,"model","model",331153215),epochs_to_retain,new cljs.core.Keyword(null,"change-on-blur?","change-on-blur?",854283925),true,new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__37326_SHARP_){
+return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","set-number-of-retained-epochs","day8.re-frame-10x.panels.settings.events/set-number-of-retained-epochs",-813421569),p1__37326_SHARP_], null));
 })], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.label,new cljs.core.Keyword(null,"label","label",1718410804),"epochs"], null),new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.gap_f,new cljs.core.Keyword(null,"size","size",1098693007),day8.re_frame_10x.styles.gs_31s], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.button,new cljs.core.Keyword(null,"class","class",-2030961996),day8.re_frame_10x.styles.button(ambiance),new cljs.core.Keyword(null,"label","label",1718410804),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.v_box,new cljs.core.Keyword(null,"align","align",1964212802),new cljs.core.Keyword(null,"center","center",-748944368),new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["clear all epochs"], null)], null),new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (){
 return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.navigation.epochs.events","reset","day8.re-frame-10x.navigation.epochs.events/reset",-2105765050)], null));
 })], null)], null)], null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),num_epochs," epochs currently retained, involving ",num_traces," traces."], null)], null),day8.re_frame_10x.panels.settings.views.settings_box_81], null);
 })(),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.line], null),(function (){var follows_events_QMARK_ = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","app-db-follows-events?","day8.re-frame-10x.panels.settings.subs/app-db-follows-events?",1075206342)], null)));
-return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.settings_box,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.checkbox,new cljs.core.Keyword(null,"model","model",331153215),follows_events_QMARK_,new cljs.core.Keyword(null,"label","label",1718410804),"sync app-db with epoch navigation",new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__46526_SHARP_){
-return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","app-db-follows-events?","day8.re-frame-10x.panels.settings.events/app-db-follows-events?",-1040848496),p1__46526_SHARP_], null));
+return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.settings_box,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.checkbox,new cljs.core.Keyword(null,"model","model",331153215),follows_events_QMARK_,new cljs.core.Keyword(null,"label","label",1718410804),"sync app-db with epoch navigation",new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__37328_SHARP_){
+return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","app-db-follows-events?","day8.re-frame-10x.panels.settings.events/app-db-follows-events?",-1040848496),p1__37328_SHARP_], null));
 })], null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"When you navigate to an epoch, update app-db to match. Causes UI to \"time travel\"."], null)], null),day8.re_frame_10x.panels.settings.views.settings_box_81], null);
 })(),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.line], null),(function (){var ambiance = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","ambiance","day8.re-frame-10x.panels.settings.subs/ambiance",-230258012)], null)));
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.settings_box,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.h_box,new cljs.core.Keyword(null,"align","align",1964212802),new cljs.core.Keyword(null,"center","center",-748944368),new cljs.core.Keyword(null,"gap","gap",80255254),day8.re_frame_10x.panels.settings.views.horizontal_gap,new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.label,new cljs.core.Keyword(null,"label","label",1718410804),"Ignore epochs for:"], null),new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.button,new cljs.core.Keyword(null,"class","class",-2030961996),day8.re_frame_10x.styles.button(ambiance),new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"width","width",-384071477),day8.re_frame_10x.styles.gs_81s], null),new cljs.core.Keyword(null,"label","label",1718410804),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.v_box,new cljs.core.Keyword(null,"align","align",1964212802),new cljs.core.Keyword(null,"center","center",-748944368),new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["+ event-id"], null)], null),new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (){
 return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","add-ignored-event","day8.re-frame-10x.panels.settings.events/add-ignored-event",-92168870)], null));
-})], null)], null)], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.v_box,new cljs.core.Keyword(null,"width","width",-384071477),day8.re_frame_10x.panels.settings.views.comp_section_width,new cljs.core.Keyword(null,"gap","gap",80255254),day8.re_frame_10x.panels.settings.views.vertical_gap,new cljs.core.Keyword(null,"children","children",-940561982),(function (){var iter__4611__auto__ = (function day8$re_frame_10x$panels$settings$views$render_$_iter__46535(s__46536){
+})], null)], null)], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.v_box,new cljs.core.Keyword(null,"width","width",-384071477),day8.re_frame_10x.panels.settings.views.comp_section_width,new cljs.core.Keyword(null,"gap","gap",80255254),day8.re_frame_10x.panels.settings.views.vertical_gap,new cljs.core.Keyword(null,"children","children",-940561982),(function (){var iter__4611__auto__ = (function day8$re_frame_10x$panels$settings$views$render_$_iter__37343(s__37344){
 return (new cljs.core.LazySeq(null,(function (){
-var s__46536__$1 = s__46536;
+var s__37344__$1 = s__37344;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__46536__$1);
+var temp__5753__auto__ = cljs.core.seq(s__37344__$1);
 if(temp__5753__auto__){
-var s__46536__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__46536__$2)){
-var c__4609__auto__ = cljs.core.chunk_first(s__46536__$2);
+var s__37344__$2 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__37344__$2)){
+var c__4609__auto__ = cljs.core.chunk_first(s__37344__$2);
 var size__4610__auto__ = cljs.core.count(c__4609__auto__);
-var b__46538 = cljs.core.chunk_buffer(size__4610__auto__);
-if((function (){var i__46537 = (0);
+var b__37346 = cljs.core.chunk_buffer(size__4610__auto__);
+if((function (){var i__37345 = (0);
 while(true){
-if((i__46537 < size__4610__auto__)){
-var item = cljs.core._nth(c__4609__auto__,i__46537);
+if((i__37345 < size__4610__auto__)){
+var item = cljs.core._nth(c__4609__auto__,i__37345);
 var id = new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(item);
-cljs.core.chunk_append(b__46538,cljs.core.with_meta(new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.closeable_text_box,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"event-str","event-str",381347778).cljs$core$IFn$_invoke$arity$1(item),new cljs.core.Keyword(null,"width","width",-384071477),"212px",new cljs.core.Keyword(null,"on-close","on-close",-761178394),((function (i__46537,id,item,c__4609__auto__,size__4610__auto__,b__46538,s__46536__$2,temp__5753__auto__,ambiance){
+cljs.core.chunk_append(b__37346,cljs.core.with_meta(new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.closeable_text_box,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"event-str","event-str",381347778).cljs$core$IFn$_invoke$arity$1(item),new cljs.core.Keyword(null,"width","width",-384071477),"212px",new cljs.core.Keyword(null,"on-close","on-close",-761178394),((function (i__37345,id,item,c__4609__auto__,size__4610__auto__,b__37346,s__37344__$2,temp__5753__auto__,ambiance){
 return (function (){
 return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","remove-ignored-event","day8.re-frame-10x.panels.settings.events/remove-ignored-event",252246704),id], null));
-});})(i__46537,id,item,c__4609__auto__,size__4610__auto__,b__46538,s__46536__$2,temp__5753__auto__,ambiance))
-,new cljs.core.Keyword(null,"on-change","on-change",-732046149),((function (i__46537,id,item,c__4609__auto__,size__4610__auto__,b__46538,s__46536__$2,temp__5753__auto__,ambiance){
-return (function (p1__46527_SHARP_){
-return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","update-ignored-event","day8.re-frame-10x.panels.settings.events/update-ignored-event",789804124),id,p1__46527_SHARP_], null));
-});})(i__46537,id,item,c__4609__auto__,size__4610__auto__,b__46538,s__46536__$2,temp__5753__auto__,ambiance))
+});})(i__37345,id,item,c__4609__auto__,size__4610__auto__,b__37346,s__37344__$2,temp__5753__auto__,ambiance))
+,new cljs.core.Keyword(null,"on-change","on-change",-732046149),((function (i__37345,id,item,c__4609__auto__,size__4610__auto__,b__37346,s__37344__$2,temp__5753__auto__,ambiance){
+return (function (p1__37330_SHARP_){
+return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","update-ignored-event","day8.re-frame-10x.panels.settings.events/update-ignored-event",789804124),id,p1__37330_SHARP_], null));
+});})(i__37345,id,item,c__4609__auto__,size__4610__auto__,b__37346,s__37344__$2,temp__5753__auto__,ambiance))
 ], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)));
 
-var G__46547 = (i__46537 + (1));
-i__46537 = G__46547;
+var G__37372 = (i__37345 + (1));
+i__37345 = G__37372;
 continue;
 } else {
 return true;
@@ -111,22 +111,22 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__46538),day8$re_frame_10x$panels$settings$views$render_$_iter__46535(cljs.core.chunk_rest(s__46536__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__37346),day8$re_frame_10x$panels$settings$views$render_$_iter__37343(cljs.core.chunk_rest(s__37344__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__46538),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__37346),null);
 }
 } else {
-var item = cljs.core.first(s__46536__$2);
+var item = cljs.core.first(s__37344__$2);
 var id = new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(item);
-return cljs.core.cons(cljs.core.with_meta(new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.closeable_text_box,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"event-str","event-str",381347778).cljs$core$IFn$_invoke$arity$1(item),new cljs.core.Keyword(null,"width","width",-384071477),"212px",new cljs.core.Keyword(null,"on-close","on-close",-761178394),((function (id,item,s__46536__$2,temp__5753__auto__,ambiance){
+return cljs.core.cons(cljs.core.with_meta(new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.closeable_text_box,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"event-str","event-str",381347778).cljs$core$IFn$_invoke$arity$1(item),new cljs.core.Keyword(null,"width","width",-384071477),"212px",new cljs.core.Keyword(null,"on-close","on-close",-761178394),((function (id,item,s__37344__$2,temp__5753__auto__,ambiance){
 return (function (){
 return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","remove-ignored-event","day8.re-frame-10x.panels.settings.events/remove-ignored-event",252246704),id], null));
-});})(id,item,s__46536__$2,temp__5753__auto__,ambiance))
-,new cljs.core.Keyword(null,"on-change","on-change",-732046149),((function (id,item,s__46536__$2,temp__5753__auto__,ambiance){
-return (function (p1__46527_SHARP_){
-return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","update-ignored-event","day8.re-frame-10x.panels.settings.events/update-ignored-event",789804124),id,p1__46527_SHARP_], null));
-});})(id,item,s__46536__$2,temp__5753__auto__,ambiance))
-], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)),day8$re_frame_10x$panels$settings$views$render_$_iter__46535(cljs.core.rest(s__46536__$2)));
+});})(id,item,s__37344__$2,temp__5753__auto__,ambiance))
+,new cljs.core.Keyword(null,"on-change","on-change",-732046149),((function (id,item,s__37344__$2,temp__5753__auto__,ambiance){
+return (function (p1__37330_SHARP_){
+return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","update-ignored-event","day8.re-frame-10x.panels.settings.events/update-ignored-event",789804124),id,p1__37330_SHARP_], null));
+});})(id,item,s__37344__$2,temp__5753__auto__,ambiance))
+], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)),day8$re_frame_10x$panels$settings$views$render_$_iter__37343(cljs.core.rest(s__37344__$2)));
 }
 } else {
 return null;
@@ -140,34 +140,34 @@ return iter__4611__auto__(cljs.core.deref(day8.re_frame_10x.inlined_deps.re_fram
 })(),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.line], null),(function (){var ambiance = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","ambiance","day8.re-frame-10x.panels.settings.subs/ambiance",-230258012)], null)));
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.settings_box,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.h_box,new cljs.core.Keyword(null,"align","align",1964212802),new cljs.core.Keyword(null,"center","center",-748944368),new cljs.core.Keyword(null,"gap","gap",80255254),day8.re_frame_10x.panels.settings.views.horizontal_gap,new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.label,new cljs.core.Keyword(null,"label","label",1718410804),"Filter out trace for views in:"], null),new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.button,new cljs.core.Keyword(null,"class","class",-2030961996),day8.re_frame_10x.styles.button(ambiance),new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"width","width",-384071477),"100px"], null),new cljs.core.Keyword(null,"label","label",1718410804),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.v_box,new cljs.core.Keyword(null,"align","align",1964212802),new cljs.core.Keyword(null,"center","center",-748944368),new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["+ namespace"], null)], null),new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (){
 return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","add-filtered-view-trace","day8.re-frame-10x.panels.settings.events/add-filtered-view-trace",937947584)], null));
-})], null)], null)], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.v_box,new cljs.core.Keyword(null,"width","width",-384071477),day8.re_frame_10x.panels.settings.views.comp_section_width,new cljs.core.Keyword(null,"gap","gap",80255254),day8.re_frame_10x.panels.settings.views.vertical_gap,new cljs.core.Keyword(null,"children","children",-940561982),(function (){var iter__4611__auto__ = (function day8$re_frame_10x$panels$settings$views$render_$_iter__46539(s__46540){
+})], null)], null)], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.v_box,new cljs.core.Keyword(null,"width","width",-384071477),day8.re_frame_10x.panels.settings.views.comp_section_width,new cljs.core.Keyword(null,"gap","gap",80255254),day8.re_frame_10x.panels.settings.views.vertical_gap,new cljs.core.Keyword(null,"children","children",-940561982),(function (){var iter__4611__auto__ = (function day8$re_frame_10x$panels$settings$views$render_$_iter__37351(s__37352){
 return (new cljs.core.LazySeq(null,(function (){
-var s__46540__$1 = s__46540;
+var s__37352__$1 = s__37352;
 while(true){
-var temp__5753__auto__ = cljs.core.seq(s__46540__$1);
+var temp__5753__auto__ = cljs.core.seq(s__37352__$1);
 if(temp__5753__auto__){
-var s__46540__$2 = temp__5753__auto__;
-if(cljs.core.chunked_seq_QMARK_(s__46540__$2)){
-var c__4609__auto__ = cljs.core.chunk_first(s__46540__$2);
+var s__37352__$2 = temp__5753__auto__;
+if(cljs.core.chunked_seq_QMARK_(s__37352__$2)){
+var c__4609__auto__ = cljs.core.chunk_first(s__37352__$2);
 var size__4610__auto__ = cljs.core.count(c__4609__auto__);
-var b__46542 = cljs.core.chunk_buffer(size__4610__auto__);
-if((function (){var i__46541 = (0);
+var b__37354 = cljs.core.chunk_buffer(size__4610__auto__);
+if((function (){var i__37353 = (0);
 while(true){
-if((i__46541 < size__4610__auto__)){
-var item = cljs.core._nth(c__4609__auto__,i__46541);
+if((i__37353 < size__4610__auto__)){
+var item = cljs.core._nth(c__4609__auto__,i__37353);
 var id = new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(item);
-cljs.core.chunk_append(b__46542,cljs.core.with_meta(new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.closeable_text_box,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"ns-str","ns-str",-2062616499).cljs$core$IFn$_invoke$arity$1(item),new cljs.core.Keyword(null,"width","width",-384071477),"343px",new cljs.core.Keyword(null,"on-close","on-close",-761178394),((function (i__46541,id,item,c__4609__auto__,size__4610__auto__,b__46542,s__46540__$2,temp__5753__auto__,ambiance){
+cljs.core.chunk_append(b__37354,cljs.core.with_meta(new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.closeable_text_box,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"ns-str","ns-str",-2062616499).cljs$core$IFn$_invoke$arity$1(item),new cljs.core.Keyword(null,"width","width",-384071477),"343px",new cljs.core.Keyword(null,"on-close","on-close",-761178394),((function (i__37353,id,item,c__4609__auto__,size__4610__auto__,b__37354,s__37352__$2,temp__5753__auto__,ambiance){
 return (function (){
 return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","remove-filtered-view-trace","day8.re-frame-10x.panels.settings.events/remove-filtered-view-trace",2058604246),id], null));
-});})(i__46541,id,item,c__4609__auto__,size__4610__auto__,b__46542,s__46540__$2,temp__5753__auto__,ambiance))
-,new cljs.core.Keyword(null,"on-change","on-change",-732046149),((function (i__46541,id,item,c__4609__auto__,size__4610__auto__,b__46542,s__46540__$2,temp__5753__auto__,ambiance){
-return (function (p1__46528_SHARP_){
-return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","update-filtered-view-trace","day8.re-frame-10x.panels.settings.events/update-filtered-view-trace",598201221),id,p1__46528_SHARP_], null));
-});})(i__46541,id,item,c__4609__auto__,size__4610__auto__,b__46542,s__46540__$2,temp__5753__auto__,ambiance))
+});})(i__37353,id,item,c__4609__auto__,size__4610__auto__,b__37354,s__37352__$2,temp__5753__auto__,ambiance))
+,new cljs.core.Keyword(null,"on-change","on-change",-732046149),((function (i__37353,id,item,c__4609__auto__,size__4610__auto__,b__37354,s__37352__$2,temp__5753__auto__,ambiance){
+return (function (p1__37331_SHARP_){
+return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","update-filtered-view-trace","day8.re-frame-10x.panels.settings.events/update-filtered-view-trace",598201221),id,p1__37331_SHARP_], null));
+});})(i__37353,id,item,c__4609__auto__,size__4610__auto__,b__37354,s__37352__$2,temp__5753__auto__,ambiance))
 ], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)));
 
-var G__46553 = (i__46541 + (1));
-i__46541 = G__46553;
+var G__37374 = (i__37353 + (1));
+i__37353 = G__37374;
 continue;
 } else {
 return true;
@@ -175,22 +175,22 @@ return true;
 break;
 }
 })()){
-return cljs.core.chunk_cons(cljs.core.chunk(b__46542),day8$re_frame_10x$panels$settings$views$render_$_iter__46539(cljs.core.chunk_rest(s__46540__$2)));
+return cljs.core.chunk_cons(cljs.core.chunk(b__37354),day8$re_frame_10x$panels$settings$views$render_$_iter__37351(cljs.core.chunk_rest(s__37352__$2)));
 } else {
-return cljs.core.chunk_cons(cljs.core.chunk(b__46542),null);
+return cljs.core.chunk_cons(cljs.core.chunk(b__37354),null);
 }
 } else {
-var item = cljs.core.first(s__46540__$2);
+var item = cljs.core.first(s__37352__$2);
 var id = new cljs.core.Keyword(null,"id","id",-1388402092).cljs$core$IFn$_invoke$arity$1(item);
-return cljs.core.cons(cljs.core.with_meta(new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.closeable_text_box,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"ns-str","ns-str",-2062616499).cljs$core$IFn$_invoke$arity$1(item),new cljs.core.Keyword(null,"width","width",-384071477),"343px",new cljs.core.Keyword(null,"on-close","on-close",-761178394),((function (id,item,s__46540__$2,temp__5753__auto__,ambiance){
+return cljs.core.cons(cljs.core.with_meta(new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.closeable_text_box,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"ns-str","ns-str",-2062616499).cljs$core$IFn$_invoke$arity$1(item),new cljs.core.Keyword(null,"width","width",-384071477),"343px",new cljs.core.Keyword(null,"on-close","on-close",-761178394),((function (id,item,s__37352__$2,temp__5753__auto__,ambiance){
 return (function (){
 return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","remove-filtered-view-trace","day8.re-frame-10x.panels.settings.events/remove-filtered-view-trace",2058604246),id], null));
-});})(id,item,s__46540__$2,temp__5753__auto__,ambiance))
-,new cljs.core.Keyword(null,"on-change","on-change",-732046149),((function (id,item,s__46540__$2,temp__5753__auto__,ambiance){
-return (function (p1__46528_SHARP_){
-return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","update-filtered-view-trace","day8.re-frame-10x.panels.settings.events/update-filtered-view-trace",598201221),id,p1__46528_SHARP_], null));
-});})(id,item,s__46540__$2,temp__5753__auto__,ambiance))
-], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)),day8$re_frame_10x$panels$settings$views$render_$_iter__46539(cljs.core.rest(s__46540__$2)));
+});})(id,item,s__37352__$2,temp__5753__auto__,ambiance))
+,new cljs.core.Keyword(null,"on-change","on-change",-732046149),((function (id,item,s__37352__$2,temp__5753__auto__,ambiance){
+return (function (p1__37331_SHARP_){
+return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.events","update-filtered-view-trace","day8.re-frame-10x.panels.settings.events/update-filtered-view-trace",598201221),id,p1__37331_SHARP_], null));
+});})(id,item,s__37352__$2,temp__5753__auto__,ambiance))
+], null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"key","key",-1516042587),id], null)),day8$re_frame_10x$panels$settings$views$render_$_iter__37351(cljs.core.rest(s__37352__$2)));
 }
 } else {
 return null;
@@ -202,10 +202,10 @@ break;
 return iter__4611__auto__(cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","filtered-view-trace","day8.re-frame-10x.panels.settings.subs/filtered-view-trace",-192195211)], null))));
 })()], null)], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Sometimes you want to focus on your own views, and the trace associated with library views is just noise."], null),new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Nominate one or more namespaces."], null)], null),day8.re_frame_10x.panels.settings.views.settings_box_131], null);
 })(),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.line], null),(function (){var low_level_trace = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","low-level-trace","day8.re-frame-10x.panels.settings.subs/low-level-trace",-929378536)], null)));
-return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.settings_box,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.label,new cljs.core.Keyword(null,"label","label",1718410804),"Remove low level trace"], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.checkbox,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"reagent","reagent",2131627322).cljs$core$IFn$_invoke$arity$1(low_level_trace),new cljs.core.Keyword(null,"label","label",1718410804),"reagent internals",new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__46529_SHARP_){
-return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","low-level-trace","day8.re-frame-10x.panels.settings.subs/low-level-trace",-929378536),new cljs.core.Keyword(null,"reagent","reagent",2131627322),p1__46529_SHARP_], null));
-})], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.checkbox,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"re-frame","re-frame",-1039473033).cljs$core$IFn$_invoke$arity$1(low_level_trace),new cljs.core.Keyword(null,"label","label",1718410804),"re-frame internals",new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__46530_SHARP_){
-return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","low-level-trace","day8.re-frame-10x.panels.settings.subs/low-level-trace",-929378536),new cljs.core.Keyword(null,"re-frame","re-frame",-1039473033),p1__46530_SHARP_], null));
+return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.settings_box,new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.label,new cljs.core.Keyword(null,"label","label",1718410804),"Remove low level trace"], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.checkbox,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"reagent","reagent",2131627322).cljs$core$IFn$_invoke$arity$1(low_level_trace),new cljs.core.Keyword(null,"label","label",1718410804),"reagent internals",new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__37332_SHARP_){
+return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","low-level-trace","day8.re-frame-10x.panels.settings.subs/low-level-trace",-929378536),new cljs.core.Keyword(null,"reagent","reagent",2131627322),p1__37332_SHARP_], null));
+})], null),new cljs.core.PersistentVector(null, 7, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.checkbox,new cljs.core.Keyword(null,"model","model",331153215),new cljs.core.Keyword(null,"re-frame","re-frame",-1039473033).cljs$core$IFn$_invoke$arity$1(low_level_trace),new cljs.core.Keyword(null,"label","label",1718410804),"re-frame internals",new cljs.core.Keyword(null,"on-change","on-change",-732046149),(function (p1__37333_SHARP_){
+return day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.dispatch(new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","low-level-trace","day8.re-frame-10x.panels.settings.subs/low-level-trace",-929378536),new cljs.core.Keyword(null,"re-frame","re-frame",-1039473033),p1__37333_SHARP_], null));
 })], null)], null),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"p","p",151049309),"Most of the time, low level trace is noisy and you want it filtered out."], null)], null),day8.re_frame_10x.panels.settings.views.settings_box_131], null);
 })(),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.line], null),(function (){var ambiance = cljs.core.deref(day8.re_frame_10x.inlined_deps.re_frame.v1v1v2.re_frame.core.subscribe.cljs$core$IFn$_invoke$arity$1(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword("day8.re-frame-10x.panels.settings.subs","ambiance","day8.re-frame-10x.panels.settings.subs/ambiance",-230258012)], null)));
 return new cljs.core.PersistentVector(null, 4, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.panels.settings.views.settings_box,new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.PersistentVector(null, 9, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.button,new cljs.core.Keyword(null,"class","class",-2030961996),day8.re_frame_10x.styles.button(ambiance),new cljs.core.Keyword(null,"style","style",-496642736),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"width","width",-384071477),"100px"], null),new cljs.core.Keyword(null,"label","label",1718410804),new cljs.core.PersistentVector(null, 5, 5, cljs.core.PersistentVector.EMPTY_NODE, [day8.re_frame_10x.components.re_com.v_box,new cljs.core.Keyword(null,"align","align",1964212802),new cljs.core.Keyword(null,"center","center",-748944368),new cljs.core.Keyword(null,"children","children",-940561982),new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, ["Factory Reset"], null)], null),new cljs.core.Keyword(null,"on-click","on-click",1632826543),(function (){

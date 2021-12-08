@@ -5,8 +5,8 @@ mister_wally.routes.panels = (function (){var method_table__4701__auto__ = cljs.
 var prefer_table__4702__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var method_cache__4703__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
 var cached_hierarchy__4704__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__4705__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__55854 = cljs.core.get_global_hierarchy;
-return (fexpr__55854.cljs$core$IFn$_invoke$arity$0 ? fexpr__55854.cljs$core$IFn$_invoke$arity$0() : fexpr__55854.call(null));
+var hierarchy__4705__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(cljs.core.PersistentArrayMap.EMPTY,new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__47341 = cljs.core.get_global_hierarchy;
+return (fexpr__47341.cljs$core$IFn$_invoke$arity$0 ? fexpr__47341.cljs$core$IFn$_invoke$arity$0() : fexpr__47341.call(null));
 })());
 return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("mister-wally.routes","panels"),cljs.core.identity,new cljs.core.Keyword(null,"default","default",-1987822328),hierarchy__4705__auto__,method_table__4701__auto__,prefer_table__4702__auto__,method_cache__4703__auto__,cached_hierarchy__4704__auto__));
 })();
@@ -20,14 +20,14 @@ return bidi.bidi.match_route(cljs.core.deref(mister_wally.routes.routes),url);
 });
 mister_wally.routes.url_for = (function mister_wally$routes$url_for(var_args){
 var args__4824__auto__ = [];
-var len__4818__auto___55856 = arguments.length;
-var i__4819__auto___55857 = (0);
+var len__4818__auto___47343 = arguments.length;
+var i__4819__auto___47344 = (0);
 while(true){
-if((i__4819__auto___55857 < len__4818__auto___55856)){
-args__4824__auto__.push((arguments[i__4819__auto___55857]));
+if((i__4819__auto___47344 < len__4818__auto___47343)){
+args__4824__auto__.push((arguments[i__4819__auto___47344]));
 
-var G__55858 = (i__4819__auto___55857 + (1));
-i__4819__auto___55857 = G__55858;
+var G__47345 = (i__4819__auto___47344 + (1));
+i__4819__auto___47344 = G__47345;
 continue;
 } else {
 }
@@ -45,9 +45,9 @@ return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(bidi.bidi.path_for,cljs.cor
 (mister_wally.routes.url_for.cljs$lang$maxFixedArity = (0));
 
 /** @this {Function} */
-(mister_wally.routes.url_for.cljs$lang$applyTo = (function (seq55855){
+(mister_wally.routes.url_for.cljs$lang$applyTo = (function (seq47342){
 var self__4806__auto__ = this;
-return self__4806__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq55855));
+return self__4806__auto__.cljs$core$IFn$_invoke$arity$variadic(cljs.core.seq(seq47342));
 }));
 
 mister_wally.routes.dispatch = (function mister_wally$routes$dispatch(route){

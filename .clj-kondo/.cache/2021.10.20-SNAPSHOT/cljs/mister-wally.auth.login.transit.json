@@ -1,1 +1,0 @@
-["^ ","~$login",["^ ","~:row",7,"~:col",1,"~:fixed-arities",["~#set",[0]],"~:name","^0","~:ns","~$mister-wally.auth.login","~:top-ns","^7","~:arities",["^ ","~i0",["^ ","~:ret","~:fn"]]],"~:filename","/Users/hagenek/repos/wally/src/mister_wally/auth/login.cljs"]
