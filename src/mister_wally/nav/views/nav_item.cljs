@@ -1,6 +1,5 @@
 (ns mister-wally.nav-item
-  (:require [clojure.string :as s]
-            ["@smooth-ui/core-sc" :refer [Box]]))
+  (:require ["@smooth-ui/core-sc" :refer [Box]]))
 
 (defn transform-page-id [id]
   (keyword (apply str (rest (str id "-panel")))))

@@ -2,7 +2,7 @@
   (:require [re-frame.core :as rf]
             [mister-wally.events :as events]
             [mister-wally.subs :as subs]
-            [mister-wally.nav-item :refer [nav-item]]
+            [mister-wally.nav.views.nav-item :refer [nav-item]]
             ["@smooth-ui/core-sc" :refer [Box]]))
 
 (defn public

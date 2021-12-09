@@ -2,8 +2,7 @@
   (:require
    [clojure.string :as s]
    ["faker" :refer [name finance date]]
-   ["@smooth-ui/core-sc" :refer [Button
-                                 Grid
+   ["@smooth-ui/core-sc" :refer [Grid
                                  Typography
                                  Col
                                  Row
@@ -44,7 +43,7 @@
           [:<>
            [:> Box (.toLocaleString (.past date))]
            [:> Box {:display "flex" :align-items "center" :justify-content "space-between"}
-            [:> Typography "Outgoing transaction to "]
+            [:> Typography "Outgoing transaction from "]
             [:> Typography {:font-weight "bold" :ml 1} (.findName name)]
             [:> Typography {:ml 3 :border "2px solid primary"}
              [:> Box  [:span [:img

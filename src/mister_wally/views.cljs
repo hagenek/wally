@@ -4,33 +4,27 @@
    [reagent.core :as r]
    [mister-wally.events :as events]
    [mister-wally.routes :as routes]
-   [mister-wally.subs :as subs]
-   [mister-wally.components.send :refer [send-from-wallet]]
+   [mister-wally.nav.subs :as subs]
+   [mister-wally.wallet.views.wallet-menu :refer [wallet-menu]]
+   [mister-wally.components.make_payment_form :refer [make-payment-form submit-transaction]]
    [mister-wally.auth.signup :refer [signup-panel]]
    [mister-wally.auth.login :refer [login-panel]]
    [mister-wally.components.modal :refer [modal]]
    [mister-wally.transactions.views.transactions :refer [transactions-panel]]
-   ["@smooth-ui/core-sc" :refer [Button
-                                 Grid
+   ["@smooth-ui/core-sc" :refer [Grid
                                  Typography
                                  Col
                                  Row
                                  Box]]))
 
-;; Wallet Component
-(defn send-receive []
-  [:> Box
-   [:> Box {:as "img"
-            :alt "Nanocoin logo"
-            :width "auto"
-            :border "3px solid #213458"
-            :mb 20
-            :border-radius "14px"
-            :className "nano-logo"
-            :src "img/shiba-inu.png"}]
-   [:> Box
-    [:> Button {:on-click #(re-frame/dispatch [::events/open-modal :receive-modal])} "Receive"]
-    [:> Button {:ml 120 :mb 100 :px 25 :on-click #(re-frame/dispatch [::events/open-modal :send-modal])} "Send"]]])
+
+(defn home-panel-header []
+        [:> Col {:xs 12 :sm 12}
+       [:> Box {:flex-direction "column"}
+        [:h2
+         [:> Typography {:color "light"} (str "Welcome " @name "!")]]
+        [:h2
+         [:> Typography {:color "light"} "How can Mister Wally assist you today?"]]]])
 
 ;; Starting page when logged in
 (defn home-panel []
@@ -41,20 +35,15 @@
               :border-radius "14px"
               :background-color "#1D7D81"}
       [modal {:modal-name :send-modal
-              :header "Enter addresse and amount here"
-              :body [send-from-wallet]
-              :footer [:div "Footer"]}]
+              :header "Enter address and amount here"
+              :body [make-payment-form]
+              :footer [submit-transaction]}]
       [modal {:modal-name :receive-modal
               :header "Share this QR code, or copy address"
               :body [send-from-wallet]
               :footer [:div "Footer"]}]
-      [:> Col {:xs 12 :sm 12}
-       [:> Box {:flex-direction "column"}
-        [:h2
-         [:> Typography {:color "light"} (str "Welcome " @name "!")]]
-        [:h2
-         [:> Typography {:color "light"} "How can Mister Wally assist you today?"]]]
-       [send-receive]
+       [home-panel-header]
+       [wallet-menu]
        [:> Row {:xs 12 :justify-content "center" :mb 40}
         [:> Box {:as "a"
                  :style {:text-decoration "underline"
