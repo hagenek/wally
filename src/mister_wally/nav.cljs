@@ -7,16 +7,16 @@
 
 (defn public
   []
-  (let [active-page @(rf/subscribe [::subs/active-nav])
-        nav-items [{:id :recipes
+  (let [active-page @(rf/subscribe [::subs/active-panel])
+        nav-items [{:id :home
                     :name "Wallet"
                     :href "/"
                     :dispatch #(rf/dispatch [::events/navigate :home])}
-                   {:id "transactions"
+                   {:id :transactions
                     :name "My Transactions"
                     :href "/transactions"
                     :dispatch #(rf/dispatch [::events/navigate :transactions])}
-                   {:id "signup"
+                   {:id :signup
                     :name "Sign up"
                     :href "/signup"
                     :dispatch #(rf/dispatch [::events/navigate :signup])}
@@ -34,3 +34,4 @@
                   :href href
                   :dispatch dispatch
                   :active-page active-page}])]))
+
