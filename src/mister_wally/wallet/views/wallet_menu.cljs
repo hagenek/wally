@@ -1,7 +1,7 @@
 (ns mister-wally.wallet.views.wallet-menu
   (:require
    [re-frame.core :as re-frame]
-   [mister-wally.events :as events]
+   [mister-wally.nav.events :as events]
    ["@smooth-ui/core-sc" :refer [Button
                                  Box]]))
 
