@@ -6,7 +6,7 @@
    [mister-wally.routes :as routes]
    [mister-wally.nav.subs :as subs]
    [mister-wally.wallet.views.wallet-menu :refer [wallet-menu]]
-   [mister-wally.components.make_payment_form :refer [make-payment-form submit-transaction]]
+   [mister-wally.components.make-payment-form :refer [make-payment-form submit-transaction]]
    [mister-wally.auth.signup :refer [signup-panel]]
    [mister-wally.auth.login :refer [login-panel]]
    [mister-wally.components.modal :refer [modal]]
