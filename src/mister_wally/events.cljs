@@ -14,3 +14,10 @@
  (fn-traced [{:keys [db]} [_ username]]
             {:db (assoc db :name username)}))
 
+;; Subs
+(re-frame/reg-sub
+ ::active-panel
+ (fn [db _]
+   (:active-panel db)))
+
+

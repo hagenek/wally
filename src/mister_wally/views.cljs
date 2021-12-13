@@ -4,7 +4,7 @@
    [reagent.core :as r]
    [mister-wally.events :as events]
    [mister-wally.routes :as routes]
-   [mister-wally.nav.subs :as subs]
+   [mister-wally.subs :as subs]
    [mister-wally.wallet.views.wallet-menu :refer [wallet-menu]]
    [mister-wally.components.make-payment-form :refer [make-payment-form submit-transaction]]
    [mister-wally.auth.signup :refer [signup-panel]]
@@ -19,16 +19,16 @@
 
 
 (defn home-panel-header []
-        [:> Col {:xs 12 :sm 12}
-       [:> Box {:flex-direction "column"}
-        [:h2
-         [:> Typography {:color "light"} (str "Welcome " @name "!")]]
-        [:h2
-         [:> Typography {:color "light"} "How can Mister Wally assist you today?"]]]])
+  (let [name (re-frame/subscribe [::subs/name])]
+    [:> Col {:xs 12 :sm 12}
+     [:> Box {:flex-direction "column"}
+      [:h2
+       [:> Typography {:color "light"} (str "Welcome " @name "!")]]
+      [:h2
+       [:> Typography {:color "light"} "How can Mister Wally assist you today?"]]]]))
 
 ;; Starting page when logged in
 (defn home-panel []
-  (let [name (re-frame/subscribe [::subs/name])]
     [:> Grid
      [:> Row {:justify-content "center"
               :text-align "center"
@@ -50,7 +50,7 @@
                          :cursor "pointer"}
                  :color "light"
                  :on-click #(re-frame/dispatch [::events/navigate :about])}
-         "About Mister Wally"]]]]))
+         "About Mister Wally"]]]])
 
 ;; about
 (defn about-panel []

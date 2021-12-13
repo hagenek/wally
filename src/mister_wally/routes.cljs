@@ -3,7 +3,7 @@
    [bidi.bidi :as bidi]
    [pushy.core :as pushy]
    [re-frame.core :as re-frame]
-   [mister-wally.events :as events]))
+   [mister-wally.nav.events :as events]))
 
 (defmulti panels identity)
 (defmethod panels :default [] [:div "No panel found for this route."])
