@@ -1,4 +1,5 @@
-(ns mister-wally.nav.subs)
+(ns mister-wally.nav.subs
+  (:require [re-frame.core :as re-frame]))
 
 ;; Subs
 (re-frame/reg-sub

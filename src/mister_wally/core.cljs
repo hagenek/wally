@@ -7,7 +7,7 @@
    [mister-wally.views :as views]
    [mister-wally.config :as config]
    [mister-wally.nav.views.nav :refer [public]]
-   ["@smooth-ui/core-sc" :refer [Normalize ThemeProvider Box]]
+   ["@smooth-ui/core-sc" :refer [Normalize ThemeProvider]]
    [mister-wally.theme :refer [wallys-theme]]))
 
 

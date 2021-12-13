@@ -2,7 +2,7 @@
   (:require [re-frame.core :as rf]
             [mister-wally.events :as events]
             [mister-wally.subs :as subs]
-            ["@smooth-ui/core-sc" :refer [Button Typography
+            ["@smooth-ui/core-sc" :refer [Typography
                                           Modal ModalContent ModalDialog ModalBody ModalFooter]]))
 
 (defn modal

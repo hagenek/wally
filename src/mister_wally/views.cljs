@@ -50,7 +50,7 @@
                          :cursor "pointer"}
                  :color "light"
                  :on-click #(re-frame/dispatch [::events/navigate :about])}
-         "About Mister Wally"]]]]]))
+         "About Mister Wally"]]]]))
 
 ;; about
 (defn about-panel []
