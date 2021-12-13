@@ -42,6 +42,7 @@
               :header "Share this QR code, or copy address"
               :body [make-payment-form]
               :footer [:div "Footer"]}]
+      [:> Box
        [home-panel-header]
        [wallet-menu]
        [:> Row {:xs 12 :justify-content "center" :mb 40}
@@ -50,7 +51,7 @@
                          :cursor "pointer"}
                  :color "light"
                  :on-click #(re-frame/dispatch [::events/navigate :about])}
-         "About Mister Wally"]]]])
+         "About Mister Wally"]]]]])
 
 ;; about
 (defn about-panel []
