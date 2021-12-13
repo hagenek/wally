@@ -1,4 +1,4 @@
-(ns mister-wally.wallets.views.wallet-menu
+(ns mister-wally.wallet.views.wallet-menu
   (:require
    [re-frame.core :as re-frame]
    [mister-wally.events :as events]
