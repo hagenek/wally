@@ -1,4 +1,4 @@
-(ns mister-wally.nav-item
+(ns mister-wally.nav.views.nav-item
   (:require ["@smooth-ui/core-sc" :refer [Box]]))
 
 (defn transform-page-id [id]

@@ -1,4 +1,4 @@
-(ns mister-wally.components.send
+(ns mister-wally.components.make-payment-form
   (:require
    [mister-wally.events :as events]
    [reagent.core :as r]

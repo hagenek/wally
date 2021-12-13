@@ -1,4 +1,4 @@
-(ns mister-wally.nav
+(ns mister-wally.nav.views.nav
   (:require [re-frame.core :as rf]
             [mister-wally.events :as events]
             [mister-wally.subs :as subs]

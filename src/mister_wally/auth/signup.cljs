@@ -3,7 +3,6 @@
             [re-frame.core :as rf]
             [clojure.string :as s]
             [mister-wally.events :as events]
-            [mister-wally.components.send :refer [send-from-wallet]]
             ["@smooth-ui/core-sc" :refer [Row Col FormGroup Label Input Grid Button Box]]))
 
 (defn signup-panel []
