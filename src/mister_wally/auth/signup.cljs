@@ -2,7 +2,8 @@
   (:require [reagent.core :as r]
             [re-frame.core :as rf]
             [clojure.string :as s]
-            [mister-wally.nav.events :as events]
+            [mister-wally.nav.events :as nav-events]
+            [mister-wally.events :as events]
             ["@smooth-ui/core-sc" :refer [Row Col FormGroup Label Input Grid Button Box]]))
 
 (defn signup-panel []
@@ -24,5 +25,5 @@
                      :on-change #(swap! userinfo assoc :name (.. % -target -value))}]]
          [:> Button {:on-click
                      #((do (rf/dispatch [::events/set-active-user (s/trim (:name @userinfo))])
-                           (rf/dispatch [::events/navigate :home])))}
+                           (rf/dispatch [::nav-events/navigate :home])))}
           "Submit"]]]])))

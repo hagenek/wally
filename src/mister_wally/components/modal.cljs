@@ -8,7 +8,8 @@
 (defn modal
   [{:keys [modal-name header body footer]}]
   (let [active-modal @(rf/subscribe [::subs/active-modal])]
-    [:> Modal {:opened (= active-modal modal-name)
+    [:> Modal {
+               :opened (= active-modal modal-name)
                :on-close #(rf/dispatch [::events/close-modal modal-name])}
      [:> ModalDialog
       [:> ModalContent {:border-radius 10 :background-color "light"}
