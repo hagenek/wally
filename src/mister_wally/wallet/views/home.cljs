@@ -1,14 +1,15 @@
-(ns mister-wally.wallet.views.home-panel
-  (:require 
-      ["@smooth-ui/core-sc" :refer [Grid
-                                    Typography
-                                    Col
-                                    Row
-                                    Box]]
+(ns mister-wally.wallet.views.home
+  (:require
+   ["@smooth-ui/core-sc" :refer [Grid
+                                 Typography
+                                 Col
+                                 Row
+                                 Box]]
    [re-frame.core :as re-frame]
+   [mister-wally.components.make-payment-form :refer [make-payment-form submit-transaction]]
    [mister-wally.nav.events :as events]
-    [mister-wally.components.modal :refer [modal]]
-   [mister-wally.wallet.views.wallet-menu :as [wallet-menu]]
+   [mister-wally.components.modal :refer [modal]]
+   [mister-wally.wallet.views.wallet-menu :refer [wallet-menu]]
    [mister-wally.wallet.subs :as subs]))
 
 

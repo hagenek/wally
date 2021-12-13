@@ -1,4 +1,5 @@
-(ns mister-wally.wallet.subs)
+(ns mister-wally.wallet.subs
+  (:require [re-frame.core :as re-frame]))
 
 (re-frame/reg-sub
  ::name

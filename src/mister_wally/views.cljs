@@ -5,12 +5,10 @@
    [mister-wally.nav.events :as events]
    [mister-wally.routes :as routes]
    [mister-wally.subs :as subs]
-   [mister-wally.wallet.views.wallet-menu :refer [wallet-menu]]
-   [mister-wally.components.make-payment-form :refer [make-payment-form submit-transaction]]
    [mister-wally.auth.signup :refer [signup-panel]]
    [mister-wally.auth.login :refer [login-panel]]
-   [mister-wally.about.views.about :refer [bout-panel]]
-   [mister-wally.wallet.views.home-panel :refer [home-panel]]
+   [mister-wally.about.views.about :refer [about-panel]]
+   [mister-wally.wallet.views.home :refer [home-panel]]
    [mister-wally.transactions.views.transactions :refer [transactions-panel]]))
    
 (defmethod routes/panels :home-panel [] [home-panel])
