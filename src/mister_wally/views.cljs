@@ -40,7 +40,7 @@
               :footer [submit-transaction]}]
       [modal {:modal-name :receive-modal
               :header "Share this QR code, or copy address"
-              :body [send-from-wallet]
+              :body [make-payment-form]
               :footer [:div "Footer"]}]
        [home-panel-header]
        [wallet-menu]
