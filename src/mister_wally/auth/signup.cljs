@@ -2,7 +2,7 @@
   (:require [reagent.core :as r]
             [re-frame.core :as rf]
             [clojure.string :as s]
-            [mister-wally.events :as events]
+            [mister-wally.nav.events :as events]
             ["@smooth-ui/core-sc" :refer [Row Col FormGroup Label Input Grid Button Box]]))
 
 (defn signup-panel []
