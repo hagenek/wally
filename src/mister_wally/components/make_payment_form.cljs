@@ -27,10 +27,10 @@
          [:> Select {:scape "base"}
           (for [n names]
             [:option n])]]
-        [:> FormGroup
-         [:> Col  {:xs 12 :sm 12}
-          [:> Label "Choose amount in dollars."]]
-         [:> Col  {:xs 12 :sm 12}
+        [:> Col {:xs 12 :sm 12 :md 12}
+         [:> FormGroup
+[:> Col {:xs 12 :sm 12 :md 12}
+ [:> Label "Choose amount in dollars."]]
           [:> Input {:type "number" :value (:amount @values)
                      :on-change #(swap! values assoc :amount (.. % -target -value))}]]]
         [:> Col {:xs 12 :sm 12}
